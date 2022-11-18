@@ -1,0 +1,13 @@
+#frog{
+  font-size: 64px;
+  position: absolute;
+  top: 100px;
+  animation-name: jump;
+  animation-duration: 700ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes jump {
+  to{transform: translateY(-100px)}
+}
