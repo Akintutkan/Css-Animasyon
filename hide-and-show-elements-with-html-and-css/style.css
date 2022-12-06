@@ -1,0 +1,56 @@
+body {
+	 margin: 3rem;
+	 font-family: Avenir;
+	 color: #fff;
+	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/px.png);
+	 line-height: 1.4;
+	 font-size: 1.1rem;
+}
+ h1 {
+	 font-weight: 100;
+}
+ figure#oymyakon {
+	 float: right;
+	 width: 33%;
+	 font-size: 0;
+}
+ figure#oymyakon img {
+	 width: 100%;
+	 height: auto;
+	 box-shadow: 0 0 12px rgba(0, 0, 0, .3);
+}
+ figure#oymyakon figcaption {
+	 text-align: center;
+	 font-size: 1rem;
+	 font-style: italic;
+	 margin-top: 1rem;
+}
+ p {
+	 margin-right: 2rem;
+}
+ div#controls {
+	 margin: 2rem;
+}
+ div#controls p {
+	 font-style: italic;
+}
+ button {
+	 font-size: 1.1rem;
+	 display: inline-block;
+	 margin: 0.25rem 0.1rem;
+}
+ div#content {
+	 display: flex;
+	 flex-direction: column;
+}
+ @media all and (max-width: 800px) {
+	 figure#oymyakon {
+		 float: none;
+		 margin: 0;
+		 width: 100%;
+	}
+	 div#content {
+		 flex-direction: column-reverse;
+	}
+}
+ 
